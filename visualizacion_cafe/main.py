@@ -6,6 +6,7 @@ from st_pages import Page, show_pages
 show_pages(
     [
         Page("main.py", "Home", ""),
+        Page("pages/coffee_imports.py", "Coffee Exports", ""),
         Page("pages/coffee_exports.py", "Coffee Exports", ""),
         Page("pages/coffee_production.py", "Coffee Production", ""),
     ]

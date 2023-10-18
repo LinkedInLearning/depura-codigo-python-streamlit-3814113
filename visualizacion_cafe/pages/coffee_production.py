@@ -5,7 +5,7 @@ from common import load_data
 from common import COFFEE_PALETTE
 
 
-production_df =load_data("coffee_file/Coffee_production.csv")
+production_df =load_data("coffee_files/Coffee_production.csv")
 
 st.title("Production of Coffee per Country")
 

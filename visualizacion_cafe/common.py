@@ -4,7 +4,7 @@ import streamlit as st
 COFFEE_PALETTE = ["#38220f", "#634832", "#634832", "#dbc1ac", "#ece0d1"]
 
 
-@st.cache
+@st.cache_data
 def load_data(csv_path):
     data_df = pd.read_csv(csv_path)
     return data_df
@@ -16,7 +16,7 @@ def select_top_totals(df, country_column, total_column, top_rows):
         df[[country_column, total_column]]
         .sort_values(
             by=[total_column],
-            ascending=True
+            ascending=False
         )
         .head(top_rows)
     )
@@ -28,7 +28,7 @@ def select_top_years(df, total_column, top_rows):
     top_df = (
         df
         .sort_values(by=[total_column], ascending=False)
-        .head(2)
+        .head(top_rows)
         .drop([total_column], axis=1)
         .reset_index(drop=True)
         .T
