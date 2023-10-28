@@ -8,14 +8,14 @@ Sumérgete en el mundo de la depuración de código en Python y Streamlit con es
 ## Instrucciones
 Este repositorio contiene una aplicación web desarrollada con Streamlit que muestra una visualización de datos relacionados a la producción, importación y exportación de café. Tiene dos ramas (branches): 
 
- * La rama `desafio` contiene el código de la aplicación con los errores que se deben solucionar.
+ * La rama `depura` contiene el código de la aplicación con los errores que se deben solucionar.
  * La rama `solucion` contiene el código de la aplicación sin errores.
 
 ## Instalación
 1. Instala [Python](https://www.python.org/downloads/), se recomienda la última versión estable.
 2. Para utilizar estos archivos de ejercicios puedes usar editores de código como Pycharm o VScode.
 3. Clona este repositorio en tu máquina local usando la Terminal (macOS) o CMD (Windows), o una herramienta GUI como SourceTree.
-4. Desde la terminal accede a alguna de las ramas `desafio` o `solucion` y accede al directorio `visualizacion_cafe`.
+4. Desde la terminal accede a alguna de las ramas `depura` o `solucion` y accede al directorio `visualizacion_cafe`.
 5. Crea un ambiente virtual de Python, puedes hacerlo con virtualenv usando los comandos
 
 		pip install virtualenv
