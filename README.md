@@ -37,8 +37,8 @@ Este repositorio contiene una aplicación web desarrollada con Streamlit que mue
 Echa un vistazo a mis otros cursos en [LinkedIn Learning](https://www.linkedin.com/learning/instructors/ana-maria-pinto).
 
 [0]: # (Replace these placeholder URLs with actual course URLs)
-[lil-course-url]: https://www.linkedin.com/learning/building-a-graphql-project-with-react-js
-[lil-thumbnail-url]: https://cdn.lynda.com/course/2875095/2875095-1615224395432-16x9.jpg
+[lil-course-url]: https://www.linkedin.com/learning/depura-el-codigo-python-y-streamlit
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/D560DAQHEPswxwL7UXQ/learning-public-crop_675_1200/0/1707997305967?e=2147483647&v=beta&t=cRf3WqoQ34p61cTSqOxRQZYZy0rfDMEBkuRkV4KpWWk
 
 
 [1]: # (End of ES-Instruction ###############################################################################################)
